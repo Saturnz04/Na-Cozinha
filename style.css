@@ -1,0 +1,331 @@
+.balao{
+  margin: 0 auto;
+  font-family: 'SF Arch Rival';
+  background: #f7ebde;
+  border-radius: 8px;
+  border-color: #121113;
+  border-style: solid;
+  border-width: 2px;
+  width: auto;
+  height: auto;
+  padding: 20px;
+  position: relative;
+  margin-top: 3.25%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  padding-bottom: 10px;
+}
+
+.titulo{
+  color: #275dad;
+  text-align: center;
+  font-size:4rem;
+  margin-bottom: 0rem;
+  margin-top: 0rem;
+  font-weight: normal;
+}
+.subtitulo{
+  color: #55917f;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  text-align: center;
+  font-size:1.3rem;
+  font-weight: normal;
+}
+
+.balao:before{ /*Triangulo*/
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-left: 20px solid transparent;
+  border-right: 11px solid transparent;
+            /*Faz seta "apontar para baixo. Definir o valor como 'top' fará ela "apontar para cima" */
+            /*Aqui entra a cor da "aba" do balão */
+  border-top: 20px solid #121113;
+  bottom: -21px; /*localização. Experimente alterar para 'bottom'*/
+  left: 90%;
+}
+
+.balao:after{ /*Triangulo*/
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-left: 19px solid transparent;
+  border-right: 10px solid transparent;
+            /*Faz seta "apontar para baixo. Definir o valor como 'top' fará ela "apontar para cima" */
+            /*Aqui entra a cor da "aba" do balão */
+  border-top: 20px solid #f7ebde;
+  bottom: -19px; /*localização. Experimente alterar para 'bottom'*/
+  left: 90.1%;
+}
+
+
+
+@font-face {
+   font-family: SF Arch Rival;
+   src: url(/SF\ Arch\ Rival.ttf);
+}
+
+body{
+  background-color: #cfcbc9;
+}
+
+.balao2{
+            margin: 0 auto;
+            background: #f7ebde;
+            font-family: 'SF Arch Rival';
+            border-radius: 8px;
+            border-color: #121113;
+            border-style: solid;
+            border-width: 2px;
+            width: auto;
+            height: auto;
+            padding: 20px;
+            position: relative;
+            margin-top: 1%;
+            margin-left: 12.5%;
+            margin-right: 25%;
+            padding-bottom: 10px;
+            padding-top: 10px;
+}
+
+.balao2:before{ /*Triangulo*/
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-left: 20px solid transparent;
+  border-right: 11px solid transparent;
+            /*Faz seta "apontar para baixo. Definir o valor como 'top' fará ela "apontar para cima" */
+            /*Aqui entra a cor da "aba" do balão */
+  border-top: 20px solid #121113;
+  bottom: -21px; /*localização. Experimente alterar para 'bottom'*/
+  left: 90%;
+}
+
+.balao2:after{ /*Triangulo*/
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-left: 19px solid transparent;
+  border-right: 10px solid transparent;
+            /*Faz seta "apontar para baixo. Definir o valor como 'top' fará ela "apontar para cima" */
+            /*Aqui entra a cor da "aba" do balão */
+  border-top: 20px solid #f7ebde;
+  bottom: -19px; /*localização. Experimente alterar para 'bottom'*/
+  left: 90.1%;
+}
+
+.botaoReceitas{
+  background-color: #275dad;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: 0 9px #999;
+}
+.botaoSobre{
+  background-color: #55917f;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: 0 9px #999;
+  
+}
+.botaoSobre:active{
+  background-color: #f7ebde;
+  box-shadow: 0 5px #55917f;
+  transform: translateY(4px);
+}
+.botaoSobre:hover{
+  color: #55917f;
+  background-color: #f7ebde;
+}
+.botaoReceitas:active{
+  background-color: #f7ebde;
+  box-shadow: 0 5px #275dad;
+  transform: translateY(4px);
+}
+.botaoReceitas:hover{
+  color: #275dad;
+  background-color: #f7ebde;
+}
+
+button{
+  width: 130px;
+  border-radius: 25px;
+  border: #121113;
+  border-style: solid;
+  border-width: 2px;
+  padding: 5px;
+  color: #f7ebde;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 16px;
+  font-family: SF Arch Rival;
+}
+
+input{
+  border-radius: 4px;
+  background-color: #cfcbc9;
+  color: #121113;
+  font-family: 'SF Arch Rival';
+  width: 250px;
+  padding: 5px;
+}
+
+.nav{
+  margin: 0 auto;
+  font-family: 'SF Arch Rival';
+  background: #f7ebde;
+  border-radius: 8px;
+  border-color: #121113;
+  border-style: solid;
+  border-width: 2px;
+  width: 125px;
+  height: 375px;
+  padding: 10px;
+  font-size:130%;
+  position: relative;
+  order: 1;
+  margin-right: 10%;
+}
+
+.nav a{
+  text-decoration: none;
+  color: #121113;
+}
+
+.rod{
+  margin: 0 auto;
+  font-family: 'SF Arch Rival';
+  background: #f7ebde;
+  border-radius: 8px;
+  border-color: #121113;
+  border-style: solid;
+  border-width: 2px;
+  width: auto;
+  height: auto;
+  padding: 20px;
+  position: relative;
+  margin-top: 1%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  text-align: right;
+  color: #121113;
+  
+}
+
+.rod a{
+  color: #55917f;
+  text-decoration: none;
+  padding-left: 6px;
+  padding-right: 12px;
+  border-right-color: #121113;
+  border-right-style: dotted;
+  border-width: 2px;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: #F27059;
+}
+
+/* selected link */
+a:active {
+  color: #F27059;
+}
+#semBorda{
+  border-style: none;
+}
+
+#balaoPrincipal{
+  order: 1;
+  margin-left: 1%;
+  margin-right: 10%;
+  margin-top: 6%;
+  margin-bottom: 6%;
+  width: 350px;
+}
+
+#balaoPrincipal:before{ /*Triangulo*/
+  left: 60%;
+}
+
+#balaoPrincipal:after{ /*Triangulo*/
+  left: 60.1%;
+}
+
+#one:before{ /*Triangulo*/
+  left: 60%;
+}
+
+#one:after{ /*Triangulo*/
+  left: 60.1%;
+}
+
+#two:before{ /*Triangulo*/
+  left: 60%;
+}
+
+#two:after{ /*Triangulo*/
+  left: 60.1%;
+}
+#three:before{ /*Triangulo*/
+  left: 60%;
+}
+
+#three:after{ /*Triangulo*/
+  left: 60.1%;
+}
+
+#four:before{ /*Triangulo*/
+  left: 60%;
+}
+
+#four:after{ /*Triangulo*/
+  left: 60.1%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  order:1;
+}
+
+.containerNav{
+  display: flex;
+  order:1;
+}
+
+.containerPrincipal{
+  display: flex;
+  margin-left: 12.5%;
+  margin-top: 1%;
+}
+
+#one, #two, #three, #four {
+  margin: 34px;
+  flex-basis: 25%;
+  width: 600px;
+}
+
+#one, #three {
+  order: 1;
+}
+
+#two, #four {
+  order: 2;
+}
+
+#one, #two {
+  margin-left: 0;
+}
+
